@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 100;
+    box-sizing: border-box;
+    font-family: '';
+}
+.main{
+   width: 100vw;
+   height: 100vh;
+   background: #e2ce1a;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.left{
+    width: 304px;
+    height: 555px;
+    background: #36320a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px 0 0 20px;
+    padding: 20px;
+
+}
+
+.right{
+
+width: 640px;
+height: 555px;
+background: #fefaa1;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+border-radius: 0 20px 20px 0;
+padding: 20px;
+
+}
+
+.textfield{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 10px 0px;   
+}
+.textfield > input{
+    background: #e2ce1a;
+}
+.textfield > input::placeholder{
+    color:#000;
+}
+
+.btn-cadastrar{
+    width: 232px 70px ;
+    padding: 16px 0px;
+    margin: 25px;
+    border:none;
+    border-radius:8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 4px;
+    color:#f6f8fa;
+    background: #000;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px;
+}
+
